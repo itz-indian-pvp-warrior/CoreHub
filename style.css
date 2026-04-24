@@ -58,18 +58,63 @@ body {
 }
 
 /* Header */
-header {
-  padding: 40px;
+.hero {
+  padding: 80px 20px;
+  text-align: center;
 }
 
-h1 {
-  font-size: 2.5rem;
+.hero h1 {
+  font-size: 3rem;
+  max-width: 700px;
+  margin: auto;
+  font-weight: bold;
+}
+
+.hero p {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #9ca3af;
+  max-width: 600px;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.primary-btn {
+  padding: 12px 24px;
+  background: #22c55e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  padding: 12px 24px;
+  background: transparent;
+  border: 1px solid #22c55e;
+  color: #22c55e;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.stats {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.stats h2 {
+  font-size: 1.8rem;
   color: #22c55e;
 }
 
-p {
-  max-width: 600px;
-  margin: auto;
+.stats p {
+  font-size: 0.9rem;
   color: #9ca3af;
 }
 
