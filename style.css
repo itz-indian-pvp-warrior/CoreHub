@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #0f172a;
+  text-align: center;
+}
+
+header {
+  padding: 40px;
+  background: #ecfdf5;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #16a34a;
+}
+
+p {
+  max-width: 600px;
+  margin: auto;
+  color: #374151;
+}
+
+.btn {
+  margin: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #22c55e;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+.card {
+  background: #f0fdf4;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+}
