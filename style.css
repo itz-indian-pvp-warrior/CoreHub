@@ -1,63 +1,25 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #ffffff;
-  color: #0f172a;
+  background: #0b0f0c;
+  color: #e5e7eb;
   text-align: center;
 }
 
-header {
-  padding: 40px;
-  background: #ecfdf5;
-}
-
-h1 {
-  font-size: 2.5rem;
-  color: #16a34a;
-}
-
-p {
-  max-width: 600px;
-  margin: auto;
-  color: #374151;
-}
-
-.btn {
-  margin: 20px;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 8px;
-  background: #22c55e;
-  color: white;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.section {
-  padding: 40px 20px;
-}
-
-.card {
-  background: #f0fdf4;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 300px;
-}
-
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
+  background: #020617;
+  border-bottom: 1px solid #1f2937;
 }
 
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #16a34a;
+  color: #22c55e;
 }
 
 .nav-links {
@@ -68,14 +30,14 @@ p {
 
 .nav-links a {
   text-decoration: none;
-  color: #0f172a;
-  font-weight: 500;
+  color: #e5e7eb;
 }
 
 .nav-links a:hover {
   color: #22c55e;
 }
 
+/* Buttons */
 .auth-buttons button {
   margin-left: 10px;
   padding: 8px 15px;
@@ -92,5 +54,48 @@ p {
 
 .signup {
   background: #22c55e;
+  color: black;
+}
+
+/* Header */
+header {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #22c55e;
+}
+
+p {
+  max-width: 600px;
+  margin: auto;
+  color: #9ca3af;
+}
+
+/* Main buttons */
+.btn {
+  margin: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #16a34a;
   color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Sections */
+.section {
+  padding: 40px 20px;
+}
+
+/* Cards */
+.card {
+  background: #111827;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 300px;
+  border: 1px solid #1f2937;
 }
