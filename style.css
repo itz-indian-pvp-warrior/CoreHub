@@ -9,8 +9,17 @@ body {
 
 /* Navbar */
 .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
   background: rgba(2, 6, 23, 0.8);
   backdrop-filter: blur(10px);
+}
+
+/* LEFT (logo) */
+.nav-left {
+  flex: 1;
 }
 
 .logo {
@@ -19,19 +28,30 @@ body {
   color: #22c55e;
 }
 
-.nav-links {
-  list-style: none;
+/* CENTER (links) */
+.nav-center {
+  flex: 1;
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
 }
 
-.nav-links a {
+.nav-center a {
   text-decoration: none;
   color: #e5e7eb;
 }
 
-.nav-links a:hover {
+.nav-center a:hover {
   color: #22c55e;
+}
+
+/* RIGHT (buttons) */
+.nav-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
 }
 
 /* Buttons */
