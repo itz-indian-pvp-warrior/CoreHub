@@ -4,16 +4,13 @@ body {
   background: #0b0f0c;
   color: #e5e7eb;
   text-align: center;
+  line-height: 1.6;
 }
 
 /* Navbar */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-  background: #020617;
-  border-bottom: 1px solid #1f2937;
+  background: rgba(2, 6, 23, 0.8);
+  backdrop-filter: blur(10px);
 }
 
 .logo {
@@ -64,17 +61,19 @@ body {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   max-width: 700px;
   margin: auto;
   font-weight: bold;
 }
 
 .hero p {
-  margin-top: 20px;
-  font-size: 1.1rem;
+  margin: 20px auto;
+  font-size: 2rem;
+  font-weight: bold;
   color: #9ca3af;
   max-width: 600px;
+  text-align: centre;
 }
 
 .hero-buttons {
@@ -101,7 +100,7 @@ body {
 }
 
 .stats {
-  margin-top: 60px;
+  margin-top: 40px;
   display: flex;
   justify-content: center;
   gap: 40px;
